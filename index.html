@@ -1,178 +1,320 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-    <meta charset="utf-8">
-    <title>Jyoti Ranjan Pattnaik | Software Developer</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="I'm Jyotiranjan, A thinker, Innovator,  Enthusiastic Software Developer, Amateur sketch maker, Recreational Singer, Thought Leader. Sometimes clumsy.">
-    <meta name="keywords" content="Jyotiranjan, java, development, creative, Techie, geek, portfolio">
-    <meta name="author" content="Jyotiranjan">
-    <!-- styles -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="css/style-single-page.css" rel="stylesheet">
-    <link href="font/css/fontello.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
-    <!-- Add jQuery library -->
-    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
-    <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
-    <!-- Add fancyBox main JS and CSS files -->
-    <script type="text/javascript" src="js/jquery.fancybox.js?v=2.1.5"></script>
-    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?v=2.1.5" media="screen" />
-    <script>
-                $(document).ready(function() {
-            $(".fancybox-thumb").fancybox({
-                helpers	: {
-                    title	: {
-                        type: 'inside'
-                    },
-                    overlay : {
-                                css : {
-                                    'background' : 'rgba(1,1,1,0.65)'
-                                }
-                            }
-                }
-            });
-        });
-            </script>
-    </head>
-    <body>
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container"> <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> <a class="brand" href="#profile"><img src="img/user.png"/></a>
-          <ul class="nav nav-collapse pull-right">
-            <li><a href="#profile"><i class="icon-user"></i> Profile</a></li>
-            <li><a href="#skills"><i class="icon-trophy"></i> Skills</a></li>
-            <li><a href="#work"><i class="icon-picture"></i> Work</a></li>
-            <li><a href="#resume"><i class="icon-doc-text"></i> Resume</a></li>
-          </ul>
-          <!-- Everything you want hidden at 940px or less, place within here -->
-          <div class="nav-collapse collapse">
-            <!-- .nav, .navbar-search, .navbar-form, etc -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="clearfix">
-      <!--Profile container-->
-      <div id="profile" class="container">
-        <div class="span3"> <img src="img/mini.png"> </div>
-        <div class="span5">
-          <h1>Jyotiranjan Pattnaik</h1>
-          <h3>Software Developer</h3>
-          <p> A Thinker, Innovator,  Enthusiastic Software Developer, Amateur sketch maker, Recreational Singer, Thought Leader. Sometimes clumsy. :-) </p>
-          <p> </p>
-          <p>I've <b>4.6</b> years of Experience in <b>Java & Big Data</b> Development.  For the past 2 years, I am working on HADOOP Technologies like <b>Map Reduce, Pig, and Hive</b>. For the last 1 year, I have worked on <b>DATA SCIENCE, ElasticSearch, Kibana</b> as well, analyzing 10M customer's behaviour and presenting different aspects of the product to the Client(America's one of top Cable providers). Also, designed and developed monitoring/reporting tool using hadoop framework which added tremendous VALUE to the Product. </p>
-          <p>An Oracle CERTIFIED Java Programmer, moreover, Hardworking and innovator powered by Technologies.
-		  </p>
-          <a href="mailto:jyotiranjanpattnaik@gmail.com?subject=Hey Jrp" class="hire-me"><i class="icon-paper-plane"></i>Say Hi!</a>
-          <div class="row social">
-            <ul class="social-icons">
-              <li><a href="https://www.facebook.com/jrpattnaik" target="_blank"><img src="img/Facebook.png" alt="facebook"></a></li>
-              <li><a href="https://plus.google.com/+jyotiranjanpattnaik" target="_blank"><img src="img/GooglePlus.png" alt="google plus"></a></li>
-              <li><a href="https://github.com/jrphub" target="_blank"><img src="img/GitHub.png" alt="GitHub"></a></li>
-              <li><a href="http://in.linkedin.com/in/jrpattnaik" target="_blank"><img src="img/LinkedIn.png" alt="LinkedIn"></a></li>
-              
-              
-              <!-- <li><a href="#" target="_blank"><img src="img/pin.png" alt="pinterest"></a></li>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Jyoti Ranjan Pattnaik | Software Developer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description"
+	content="I'm Jyotiranjan, A thinker, Innovator,  Enthusiastic Software Developer, Amateur sketch maker, Recreational Singer, Thought Leader. Sometimes clumsy.">
+<meta name="keywords"
+	content="Jyotiranjan, java, development, creative, Techie, geek, portfolio">
+<meta name="author" content="Jyotiranjan">
+<!-- styles -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+<link href="css/style-single-page.css" rel="stylesheet">
+<link href="font/css/fontello.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700'
+	rel='stylesheet' type='text/css'>
+<!-- Add jQuery library -->
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<!-- Add fancyBox main JS and CSS files -->
+<script type="text/javascript" src="js/jquery.fancybox.js?v=2.1.5"></script>
+<link rel="stylesheet" type="text/css"
+	href="css/jquery.fancybox.css?v=2.1.5" media="screen" />
+<script>
+	$(document).ready(function() {
+		$(".fancybox-thumb").fancybox({
+			helpers : {
+				title : {
+					type : 'inside'
+				},
+				overlay : {
+					css : {
+						'background' : 'rgba(1,1,1,0.65)'
+					}
+				}
+			}
+		});
+	});
+</script>
+</head>
+<body>
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="btn btn-navbar" data-toggle="collapse"
+					data-target=".nav-collapse"> <span class="icon-bar"></span> <span
+					class="icon-bar"></span> <span class="icon-bar"></span>
+				</a> <a class="brand" href="#profile"><img src="img/user.png" /></a>
+				<ul class="nav nav-collapse pull-right">
+					<li><a href="#profile"><i class="icon-user"></i> Profile</a></li>
+					<li><a href="#skills"><i class="icon-trophy"></i> Skills</a></li>
+					<li><a href="#work"><i class="icon-picture"></i> Work</a></li>
+					<li><a href="#resume"><i class="icon-doc-text"></i> Resume</a></li>
+				</ul>
+				<!-- Everything you want hidden at 940px or less, place within here -->
+				<div class="nav-collapse collapse">
+					<!-- .nav, .navbar-search, .navbar-form, etc -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="clearfix">
+		<!--Profile container-->
+		<div id="profile" class="container">
+			<div class="span3">
+				<img src="img/mini.png">
+			</div>
+			<div class="span5">
+				<h1>Jyotiranjan Pattnaik</h1>
+				<h3>Software Developer</h3>
+				<p>A Thinker, Innovator, Enthusiastic Software Developer,
+					Amateur sketch maker, Recreational Singer, Thought Leader.
+					Sometimes clumsy. :-)</p>
+				<p></p>
+				<p>
+					I've <b>4.6</b> years of Experience in <b>Java & Big Data</b>
+					Development. For the past 2 years, I am working on HADOOP
+					Technologies like <b>Map Reduce, Pig, and Hive</b>. For the last 1
+					year, I have worked on <b>DATA SCIENCE, ElasticSearch, Kibana</b>
+					as well, analyzing 10M customer's behaviour and presenting
+					different aspects of the product to the Client(America's one of top
+					Cable providers). Also, designed and developed monitoring/reporting
+					tool using hadoop framework which added tremendous VALUE to the
+					Product.
+				</p>
+				<p>An Oracle CERTIFIED Java Programmer, moreover, Hardworking
+					and innovator powered by Technologies.</p>
+				<!-- <a href="mailto:jyotiranjanpattnaik@gmail.com?subject=Hey Jrp" class="hire-me"><i class="icon-paper-plane"></i>Say Hi!</a> -->
+				<a id='anchor_sU30ucyfw7jRa7426x7WnS'
+					href='http://www.emailmeform.com/builder/form/sU30ucyfw7jRa7426x7WnS'
+					class="hire-me"><i class="icon-paper-plane"></i>Say Hi!</a>
+
+				<script type="text/javascript"
+					src="//ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+				<script type="text/javascript">
+					if (typeof jQuery == 'undefined') {
+						document
+								.write(unescape("%3Cscript src='http://www.emailmeform.com/builder/js/jquery-1.4.4.min.js' type='text/javascript'%3E%3C/script%3E"));
+					}
+				</script>
+				<script type="text/javascript"
+					src="//ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script>
+				<script type="text/javascript">
+					if (typeof $.ui == 'undefined') {
+						document
+								.write(unescape("%3Cscript src='http://www.emailmeform.com/builder/js/jquery-ui-1.7.2.custom.min.js' type='text/javascript'%3E%3C/script%3E"));
+					}
+				</script>
+				<link rel="stylesheet" type="text/css"
+					href="http://www.emailmeform.com/builder/styles/dynamic.php?t=post" />
+				<script type="text/javascript"
+					src="http://www.emailmeform.com/builder/js/dynamic.php?t=post&t2=0&use_CDN=true"></script>
+				<script>
+					$(function() {
+						$('#anchor_sU30ucyfw7jRa7426x7WnS').colorbox({
+							width : '75%',
+							height : '75%',
+							iframe : true
+						});
+					})
+				</script>
+				<div class="row social">
+					<ul class="social-icons">
+						<li><a href="https://www.facebook.com/jrpattnaik"
+							target="_blank"><img src="img/Facebook.png" alt="facebook"></a></li>
+						<li><a href="https://plus.google.com/+jyotiranjanpattnaik"
+							target="_blank"><img src="img/GooglePlus.png"
+								alt="google plus"></a></li>
+						<li><a href="https://github.com/jrphub" target="_blank"><img
+								src="img/GitHub.png" alt="GitHub"></a></li>
+						<li><a href="https://in.linkedin.com/in/iamjrp"
+							target="_blank"><img src="img/LinkedIn.png" alt="LinkedIn"></a></li>
+
+
+						<!-- <li><a href="#" target="_blank"><img src="img/pin.png" alt="pinterest"></a></li>
               <li><a href="#" target="_blank"><img src="img/st.png" alt="stumbleupon"></a></li>
               <li><a href="#" target="_blank"><img src="img/dr.png" alt="dribbble"></a></li> -->
-              <!-- <li><a href="#" target="_blank"><img src="img/tw.png" alt="twitter"></a></li> -->
-            </ul>
-          </div>
-        </div>
-        <!-- Social Icons -->
-        <!-- END: Social Icons -->
-      </div>
-      <!--END: Profile container-->
-      <!--Skills container-->
-      <div id="skills" class="container">
-        <h2>My Skills</h2>
-        <div class="row">
-          <div class="span3">
-            <div class="ps">
-              <h5 style="font-size:2em; margin: 30px 0">Hadoop</h5>
-            </div>
-          </div>
-          <div class="span5">
-            <h3>Hive, Pig, Mapreduce <span>90%</span></h3>
-            <div class="expand-bg"> <span class="expand ps2"> &nbsp; </span> </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="span3">
-            <div class="ai">
-              <h3 style="font-size:2.8em">Java</h3>
-            </div>
-          </div>
-          <div class="span5">
-            <h3>Core-Java<span>70%</span></h3>
-            <div class="expand-bg"> <span class="expand ai2"> &nbsp; </span> </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="span3">
-            <div class="html">
-              <h3>Unix</h3>
-            </div>
-          </div>
-          <div class="span5">
-            <h3>Unix Shell Script <span>55%</span></h3>
-            <div class="expand-bg"> <span class="expand html2"> &nbsp; </span> </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="span3">
-            <div class="css">
-              <h3>More...</h3>
-            </div>
-          </div>
-          <div class="span5">
-            <h3>Git, SVN, Perforce, Maven, Jenkin CI, JIRA, HP QC, Agile, Linux <span>85%</span></h3>
-            <div class="expand-bg"> <span class="expand css2"> &nbsp; </span> </div>
-          </div>
-        </div>
-      </div>
-      <!--END: Skills container-->
-      <!-- Works container -->
-      <div id="work" class="container">
-        <h2>My Work</h2>
-        <ul class="work-images">
-          <li>
-            <p>My TCS days ...</p><div><a class="fancybox-thumb" rel="fancybox-thumb" href="img/Creditsuisse.PNG"><img src="img/TCS-CS.png" /></a></div>
-          </li>
-          <li>
-            <p>Sharing d' Learning ...</p><div><a class="fancybox-thumb" rel="fancybox-thumb" target="_blank" href="http://wilt.iamjrp.com/" title="My Blog"><img src="img/wilt.png" /></a></div>
-          </li>
-          
-        </ul>
-        <ul class="work-images">
-          <li>
-            <p>CityZoomin : A Ruby on Rails app</p><div><a class="fancybox-thumb" rel="fancybox-thumb" href="http://cityzoomin.herokuapp.com/" target="_blank" title="CityZoomin"><img src="img/cityzoomin.PNG" /></a></div>
-          </li>
-          <li>
-            <p>An Automation framework, Codebase is @git</p><div><a class="fancybox-thumb" rel="fancybox-thumb" href="https://github.com/jrphub/TestCaseAutomation" target="_blank"><img src="img/selenium.png" /></a></div>
-          </li>
-        </ul>
-      </div>
-      
-      <!--END: Work container-->
-      <!-- Resume container -->
-      <div id="resume" class="container">
-        <h2>My Resume</h2>
-        <h3>You can download my resume for your reference and I hope that we will meet very soon! :)</h3>
-        <div class="btn-center"> <a href="img/JyotiRanjanPattnaik-Hadoop-Java-Unix-4-5Yr" target="_blank" class="hire-me"><i class="icon-download"></i> Download Resume</a>
-          <h2>500kb</h2>
-        </div>
-        <h3 style="text-align:center">Please drop me a mail. I'll get back to you, Thanks.</h3>
-        
-        <div class="btn-center">
-        	<a href="mailto:jyotiranjanpattnaik@gmail.com?subject=Hey Jrp" class="hire-me"><i class="icon-paper-plane"></i>Inbox me</a>
-       	</div>
-      </div>
-      <!--END: Resume container-->
-      <!-- Social Icons -->
-      <!-- <div class="row social">
+						<!-- <li><a href="#" target="_blank"><img src="img/tw.png" alt="twitter"></a></li> -->
+					</ul>
+				</div>
+			</div>
+			<!-- Social Icons -->
+			<!-- END: Social Icons -->
+		</div>
+		<!--END: Profile container-->
+		<!--Skills container-->
+		<div id="skills" class="container">
+			<h2>My Skills</h2>
+			<div class="row">
+				<div class="span3">
+					<div class="ps">
+						<h5 style="font-size: 2em; margin: 30px 0">Hadoop</h5>
+					</div>
+				</div>
+				<div class="span5">
+					<h3>
+						Hive, Pig, Mapreduce <span>90%</span>
+					</h3>
+					<div class="expand-bg">
+						<span class="expand ps2"> &nbsp; </span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="span3">
+					<div class="ai">
+						<h3 style="font-size: 2.8em">Java</h3>
+					</div>
+				</div>
+				<div class="span5">
+					<h3>
+						Core-Java<span>70%</span>
+					</h3>
+					<div class="expand-bg">
+						<span class="expand ai2"> &nbsp; </span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="span3">
+					<div class="html">
+						<h3>Unix</h3>
+					</div>
+				</div>
+				<div class="span5">
+					<h3>
+						Unix Shell Script <span>55%</span>
+					</h3>
+					<div class="expand-bg">
+						<span class="expand html2"> &nbsp; </span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="span3">
+					<div class="css">
+						<h3>More...</h3>
+					</div>
+				</div>
+				<div class="span5">
+					<h3>
+						Git, SVN, P4, Maven, Jenkin CI, JIRA, HP QC, Agile<span>85%</span>
+					</h3>
+					<div class="expand-bg">
+						<span class="expand css2"> &nbsp; </span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--END: Skills container-->
+		<!-- Works container -->
+		<div id="work" class="container">
+			<h2>My Work</h2>
+			<ul class="work-images">
+				<li>
+					<p>My TCS days ...</p>
+					<div>
+						<a class="fancybox-thumb" rel="fancybox-thumb"
+							href="img/Creditsuisse.PNG"><img src="img/TCS-CS.png" /></a>
+					</div>
+				</li>
+				<li>
+					<p>Sharing d' Learning ...</p>
+					<div>
+						<a class="fancybox-thumb" rel="fancybox-thumb" target="_blank"
+							href="http://wilt.iamjrp.com/" title="My Blog"><img
+							src="img/wilt.png" /></a>
+					</div>
+				</li>
+
+			</ul>
+			<ul class="work-images">
+				<li>
+					<p>CityZoomin : A Ruby on Rails app</p>
+					<div>
+						<a class="fancybox-thumb" rel="fancybox-thumb"
+							href="http://cityzoomin.herokuapp.com/" target="_blank"
+							title="CityZoomin"><img src="img/cityzoomin.PNG" /></a>
+					</div>
+				</li>
+				<li>
+					<p>An Automation framework, Codebase is @git</p>
+					<div>
+						<a class="fancybox-thumb" rel="fancybox-thumb"
+							href="https://github.com/jrphub/TestCaseAutomation"
+							target="_blank"><img src="img/selenium.png" /></a>
+					</div>
+				</li>
+			</ul>
+			<ul class="work-images">
+				<li>
+					<p>Work @ Amdocs ...</p>
+					<div>
+						<a class="fancybox-thumb" rel="fancybox-thumb"
+							href="img/amdcosWork.PNG"><img src="img/amdocsWork.png" /></a>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+		<!--END: Work container-->
+		<!-- Resume container -->
+		<div id="resume" class="container">
+			<h2>My Resume</h2>
+			<h3>You can download my resume for your reference and I hope
+				that we will meet very soon! :)</h3>
+			<div class="btn-center">
+				<a href="img/JyotiRanjanPattnaik-Hadoop-Java-Unix-4-5Yr"
+					target="_blank" class="hire-me"><i class="icon-download"></i>
+					Download Resume</a>
+				<h2>500kb</h2>
+			</div>
+			<h3 style="text-align: center">Please drop me a mail. I'll get
+				back to you, Thanks.</h3>
+
+			<div class="btn-center">
+				<a id='anchor_sU30ucyfw7jRa7426x7WnS'
+					href='http://www.emailmeform.com/builder/form/sU30ucyfw7jRa7426x7WnS'
+					class="hire-me"><i class="icon-paper-plane"></i>Inbox me</a>
+
+				<script type="text/javascript"
+					src="//ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+				<script type="text/javascript">
+					if (typeof jQuery == 'undefined') {
+						document
+								.write(unescape("%3Cscript src='http://www.emailmeform.com/builder/js/jquery-1.4.4.min.js' type='text/javascript'%3E%3C/script%3E"));
+					}
+				</script>
+				<script type="text/javascript"
+					src="//ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script>
+				<script type="text/javascript">
+					if (typeof $.ui == 'undefined') {
+						document
+								.write(unescape("%3Cscript src='http://www.emailmeform.com/builder/js/jquery-ui-1.7.2.custom.min.js' type='text/javascript'%3E%3C/script%3E"));
+					}
+				</script>
+				<link rel="stylesheet" type="text/css"
+					href="http://www.emailmeform.com/builder/styles/dynamic.php?t=post" />
+				<script type="text/javascript"
+					src="http://www.emailmeform.com/builder/js/dynamic.php?t=post&t2=0&use_CDN=true"></script>
+				<script>
+					$(function() {
+						$('#anchor_sU30ucyfw7jRa7426x7WnS').colorbox({
+							width : '75%',
+							height : '75%',
+							iframe : true
+						});
+					})
+				</script>
+			</div>
+		</div>
+		<!--END: Resume container-->
+		<!-- Social Icons -->
+		<!-- <div class="row social">
         <ul class="social-icons">
           <li><a href="https://www.facebook.com/jrpattnaik" target="_blank"><img src="img/Facebook.png" alt="facebook"></a></li>
           <li><a href="https://plus.google.com/u/0/115688799498763542998" target="_blank"><img src="img/GooglePlus.png" alt="google plus"></a></li>
@@ -180,10 +322,10 @@
           <li><a href="http://in.linkedin.com/in/jrpattnaik" target="_blank"><img src="img/LinkedIn.png" alt="LinkedIn"></a></li>
         </ul>
       </div> -->
-      <!-- END: Social Icons -->
-    </div>
-    <!-- Footer -->
-   <!--  <div class="footer">
+		<!-- END: Social Icons -->
+	</div>
+	<!-- Footer -->
+	<!--  <div class="footer">
       <div class="container">
         <p class="pull-left"><a href="http://dzyngiri.com">www.dzyngiri.com</a></p>
         <p class="pull-right"><a href="##myModal" role="button" data-toggle="modal"> <i class="icon-mail"></i> CONTACT</a></p>
@@ -207,11 +349,11 @@
         </form>
       </div>
     </div> -->
-    <!-- Scripts -->
-    <script src="js/vertical-scroll.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- <script>
+	<!-- Scripts -->
+	<script src="js/vertical-scroll.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- <script>
                 $('#myModal').modal('hidden')
     </script> -->
-    </body>
-    </html>
+</body>
+</html>
